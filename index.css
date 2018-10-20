@@ -1,4 +1,114 @@
-.index-background{
-    width: 1920px;
-    height: 1080px;
+
+.header{
+   position: fixed;
+    background-color: rgb(85, 74, 74);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    
+    
 }
+body{
+    background: url(images/3132.jpg)
+}
+.img-logo{
+    height: 100px;
+    width: 100px;
+}
+.menu-nav-element{
+    list-style: none;
+    display: inline-block;
+    margin: 10px ;
+    
+}
+div.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    margin-top: 104px;
+}
+.menu-nav-link{
+    font-size: 20px;
+}
+.menu-nav-link:link{
+    color: rgb(32, 30, 30);
+}
+.menu-nav-link:visited{
+    color: rgb(32, 30, 30);
+}
+/*.section-banner{
+    background: url(images/3132.jpg);
+    background-size: cover;
+    
+}*/
+.banner-text-header{
+    text-align: center;
+}
+.banner-text-body{
+    text-align: center;
+}
+div.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+   
+}
+.footer{
+    background: url(imges/3132.jpg);
+    background-size: cover;
+    margin-top: 1000px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+ .content-container{
+    /*background: url(images/3132.jpg);
+    background-size: cover;*/
+    display: flex;
+    justify-content: space-between;
+
+    
+
+ }
+ .block-1{
+    color: goldenrod;
+
+ }
+ .block-2{
+    color: goldenrod;
+ }
+ .block-3{
+    color: goldenrod;
+ }
+ .block-4{
+    color: goldenrod;
+ }
+ .block-5{
+    color: goldenrod;
+    
+ }
+ .img-d4{
+     width: 200px;
+     height: 200px;
+ }
+ .img-d6{
+    width: 200px;
+    height: 200px;
+ }
+ .img-d8{
+    width: 200px;
+    height: 200px;
+ }
+ .img-d10{
+    width: 200px;
+    height: 200px;
+ }
+ .img-d12{
+    width: 200px;
+    height: 200px;
+    
+ }
